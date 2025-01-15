@@ -20,26 +20,26 @@ An Application used to trigger alerts for users when stock price reached below t
 7. StockPriceConsumer will traverse all alert prices
 8. and checks if any price event for that stock is below any alert price then an email alert is triggered which will be sent to users email.
 
-**Tools and Technologies utilized in this project **:
-** Programming Language **:
-Java
+**Tools and Technologies utilized in this project**:
+**Programming Language**:
+- Java
 
-** Frameworks **:
-Spring Boot
-Spring MVC
-Spring Cloud
-Spring Feign Client
-Spring Data JPA
+**Frameworks**:
+- Spring Boot
+- Spring MVC
+- Spring Cloud
+- Spring Feign Client
+- Spring Data JPA
 
-** Messaging/Streaming **:
-Kafka
+**Messaging/Streaming**:
+- Kafka
 
-** Service Discovery **:
-Eureka Server
+**Service Discovery**:
+- Eureka Server
 
-** Persistence/ORM **:
-Hibernate
-MySQL
+**Persistence/ORM**:
+- Hibernate
+- MySQL
 
 ** API Documentation **:
 Swagger UI
