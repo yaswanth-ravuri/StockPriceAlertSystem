@@ -42,9 +42,9 @@ An Application used to trigger alerts for users when stock price reached below t
 - Hibernate
 - MySQL
 
-** API Documentation **:
-Swagger UI
+**API Documentation**:
+- Swagger UI
 
-** Containerization **:
-Docker
-Docker-compose
+**Containerization**:
+- Docker
+- Docker-compose
