@@ -20,7 +20,8 @@ An Application used to trigger alerts for users when stock price reached below t
 7. StockPriceConsumer will traverse all alert prices
 8. and checks if any price event for that stock is below any alert price then an email alert is triggered which will be sent to users email.
 
-**Tools and Technologies utilized in this project**:
+**Tools and Technologies used**:
+
 **Programming Language**:
 - Java
 
