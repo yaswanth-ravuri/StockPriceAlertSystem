@@ -1,17 +1,17 @@
-Stock Price Alert System or App
+# Stock Price Alert System or App
 An Application used to trigger alerts for users when stock price reached below the alert price set by the user.
 
-Functional Requirements:
+** Functional Requirements **:
 1.  Generate dummy price for every minute for all stock listed.
 2.  Users able to set alerts for each stock.
 3.  Users gets notified (through email) when the price reaches below the alert price set by the user.
 
-Non-Functional Requirements:
+** Non-Functional Requirements **:
 1. Loose coupling (Achieved by using Event Driven Architecture (EDA) with Apache KAFKA)
 2. Scaling and Load balance (Achieved by using Eureka as Service Registry and Ribbon as client side Load Balancer)
 
 
-Architecture Flow:
+** Architecture Flow **:
 1. User registers through User-service which will be stored in MysQL DB.
 2. User Creates alerts for the stock required through User-Service and this data is stored in MySQL.
 3. StockPriceProducer will get the list of stocks from user-service and generates Mocked/dummy price for each stock and send this as an event to Kafka
@@ -20,29 +20,30 @@ Architecture Flow:
 7. StockPriceConsumer will traverse all alert prices
 8. and checks if any price event for that stock is below any alert price then an email alert is triggered which will be sent to users email.
 
-Tools and Technologies utilized in this project:
-Programming Language:
+**Tools and Technologies utilized in this project **:
+** Programming Language **:
 Java
-Frameworks:
+
+** Frameworks **:
 Spring Boot
 Spring MVC
 Spring Cloud
 Spring Feign Client
 Spring Data JPA
 
-Messaging/Streaming:
+** Messaging/Streaming **:
 Kafka
 
-Service Discovery:
+** Service Discovery **:
 Eureka Server
 
-Persistence/ORM:
+** Persistence/ORM **:
 Hibernate
 MySQL
 
-API Documentation:
+** API Documentation **:
 Swagger UI
 
-Containerization:
+** Containerization **:
 Docker
 Docker-compose
