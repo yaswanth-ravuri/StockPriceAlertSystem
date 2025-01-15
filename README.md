@@ -20,5 +20,29 @@ Architecture Flow:
 7. StockPriceConsumer will traverse all alert prices
 8. and checks if any price event for that stock is below any alert price then an email alert is triggered which will be sent to users email.
 
-Tools and Technologies:
-Java, Spring Boot, KAFKA, Spring MVC, Spring Cloud, Eureka server, Spring Feign client, Spring Data JPA, Hibernate, MySQL, Swagger UI
+Tools and Technologies utilized in this project:
+Programming Language:
+Java
+Frameworks:
+Spring Boot
+Spring MVC
+Spring Cloud
+Spring Feign Client
+Spring Data JPA
+
+Messaging/Streaming:
+Kafka
+
+Service Discovery:
+Eureka Server
+
+Persistence/ORM:
+Hibernate
+MySQL
+
+API Documentation:
+Swagger UI
+
+Containerization:
+Docker
+Docker-compose
